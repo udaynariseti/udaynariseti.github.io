@@ -26,7 +26,7 @@
     }
   </style>
 
-  <script type="text/javascript">
+  <script>
     let selectedRating = null;
     function setRating(rating) {
       if (document.querySelector(".rating-value-circle.selected"))
@@ -74,7 +74,7 @@
     </div>
 
     <div class="thankyou-section">
-      <img class="thankyou-img" src="./images/illustration-thank-you.svg">
+      <img class="thankyou-img" alt="thank you image" src="./images/illustration-thank-you.svg">
 
       <div class="user-rating">
         <p>You selected <span id="rate"></span> out of 5</p>
@@ -92,10 +92,10 @@
   </main>
 
 
-  <div class="attribution">
+  <section aria-label="attribution" class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Uday Nariseti</a>.
-  </div>
+  </section>
 
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
